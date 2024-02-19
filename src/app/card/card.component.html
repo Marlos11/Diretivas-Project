@@ -1,0 +1,20 @@
+<h1>Ola mundo </h1>
+<p *ngIf="">card works!</p>
+<button>Goodby</button>
+
+
+<ul>
+    <li *ngFor="let p of produtos let i = index" 
+    (click)="remove(i)"
+    >
+        {{i}} - {{p}}
+    </li>
+    <button (click)="adcionar()">
+        adicionar item
+    </button> 
+    
+    
+</ul>
+
+    
+
